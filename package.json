@@ -1,0 +1,19 @@
+{
+  "name": "sqlite-dolgozat",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "dev" : "nodemon app.js",
+    "start" : "node app.js"
+  },
+  "type": "module",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "better-sqlite3": "^12.10.0",
+    "express": "^5.2.1",
+    "nodemon": "^3.1.14"
+  }
+}
